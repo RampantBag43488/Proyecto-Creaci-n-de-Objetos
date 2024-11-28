@@ -1,4 +1,4 @@
-#ifndef PERSONAJES_Hq
+#ifndef PERSONAJES_H
 #define PERSONAJES_H
 
 #include <iostream>
@@ -12,13 +12,17 @@ class Personaje: public ParametrosBase {
 
     public:
     Personaje();
-    Personaje(string a) : Nombre(a){}
+    Personaje(string);
     string getNombre();
     void setNombre(string);
 };
 
 Personaje::Personaje(){
     Nombre = "";
+}
+
+Personaje::Personaje(string nom){
+    Nombre = nom;
 }
 
 string Personaje::getNombre(){
