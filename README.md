@@ -11,4 +11,4 @@ El codigo despliega un menu donde modificar todas las caracteristicas y detalles
 El programa corre tanto en la consola como en visual studio code(con las extensiones necesarias instaladas y MinGW) y esta hecho con c++ standard por lo que corre en todos los sistemas operativos
 
 compilar en consola con: "g++ ParametrosBase.h Personajes.h Carcasa.h Llantas.h Kart.h Mario_kart_main.cpp"
-correr en windows: "./a.exe"
+\ncorrer en windows: "./a.exe"
