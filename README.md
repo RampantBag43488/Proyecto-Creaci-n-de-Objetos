@@ -17,6 +17,7 @@ correr en windows: "./a.exe"
 ### Correcciones
 1. Se aplicó herencia y el main correctamente para que compile.
 - Cumplo con estándares en mi repositorio: tiene un readme claro que explica el proyecto  (para que sirve,  para que no sirve y como se usa), no tiene archivos basura o versiones pasadas.
+
 Se presenta tanto en todos los documentos de Carcasa.h, Llantas.h y Personajes.h al igual queen el Mario_kart_main.cpp
 
 2. Se corrigió el contenido extra en el menú.
@@ -27,12 +28,15 @@ Se presenta tanto en todos los documentos de Carcasa.h, Llantas.h y Personajes.h
 
 5. Se implemento composicion para la creacion del Kart.
 - Impemento composición (o agregación) sieguiendo mi diagrama de clases
+
 En el archivo Kart.h donde se crea este objeto con la carcasa, personaje y llantas como parametros.
 
 6. Se implemento correctamente las clases para el modelo propuesto y concuerda con el UML.
 - Implemento clases apegadas a requerimientos a partir de un modelo.
+
 En los archivos .h tanto el abstracto como las clases hijas y el proncipal que crea el kart con composicion.
 
 7. Se agrego las correcciones hechas al codigo en el README y se completaron las consideraciones a tener en cuenta.
 - Cumplo con estándares en mi repositorio: tiene un readme claro que explica el proyecto  (para que sirve,  para que no sirve y como se usa), no tiene archivos basura o versiones pasadas.
+
 En el README del repositorio de github.
