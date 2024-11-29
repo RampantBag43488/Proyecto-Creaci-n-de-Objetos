@@ -49,21 +49,21 @@ int main() {
 
   			//Caso 2 cambia la aceleracion de la carcasa
   			case 2:
-                    cout << "Dame la aceleracion de la carcasa: ";
+                    cout << "Dame la aceleracion de la carcasa (en enteros y decimales): ";
                     cin >> tem_acel;
   				kart1.setCarcasaAceleracion(tem_acel);
   			  break;
 
   			//Caso 3 cambia el peso de la carcasa
   			case 3:
-                    cout << "Dame el peso de la carcasa: ";
+                    cout << "Dame el peso de la carcasa (en enteros y decimales): ";
                     cin >> tem_peso;
   				kart1.setCarcasaPeso(tem_peso);
   			  break;
 
   			//Caso 4 cambiar la velocidad de la carcasa
   			case 4:
-                    cout << "Dame la velocidad de la carcasa: ";
+                    cout << "Dame la velocidad de la carcasa (en enteros y decimales): ";
                     cin >> tem_veloc;
   				kart1.setCarcasaVelocidad(tem_veloc);
   			  break;
@@ -77,21 +77,21 @@ int main() {
 
   			//Caso 6 cambia la aceleracion de las llantas
   			case 6:
-                    cout << "Dame la aceleracion de las llantas: ";
+                    cout << "Dame la aceleracion de las llantas (en enteros y decimales): ";
                     cin >> tem_acel;
   				kart1.setLlantasAceleracion(tem_acel);
   		  	break;
 
   			//Caso 7 cambia el peso de las llantas
   			case 7:
-                    cout << "Dame el peso de las llantas: ";
+                    cout << "Dame el peso de las llantas (en enteros y decimales): ";
                     cin >> tem_peso;
   				kart1.setLlantasPeso(tem_peso);
   			  break;
 
   			//Caso 8 cambia la velocidad de las llantas
   			case 8:
-                    cout << "Dame la velocidad de las llantas: ";
+                    cout << "Dame la velocidad de las llantas (en enteros y decimales): ";
                     cin >> tem_veloc;
   				kart1.setLlantasVelocidad(tem_veloc);
   			  break;
@@ -105,28 +105,28 @@ int main() {
 
                //Caso 10 cambia la aceleracion del personaje
   			case 10:
-  				cout<< "Dame la aceleracion del pesonaje: " ;
+  				cout<< "Dame la aceleracion del pesonaje (en enteros y decimales): " ;
   				cin >> tem_acel;
   				kart1.setPersonajeAceleracion(tem_acel);
   			  break;
 
                //Caso 11 cambia el peso del personaje
                case 11:
-  				cout<< "Dame el peso del pesonaje: " ;
+  				cout<< "Dame el peso del pesonaje (en enteros y decimales): " ;
   				cin >> tem_peso;
   				kart1.setPersonajePeso(tem_peso);
   			  break;
 
                //Caso 12 cambia la velocidad del personaje
                case 12:
-  				cout<< "Dame la velocidad del pesonaje: " ;
+  				cout<< "Dame la velocidad del pesonaje (en enteros y decimales): " ;
   				cin >> tem_veloc;
   				kart1.setPersonajeVelocidad(tem_veloc);
   			  break;
 
                //Caso 13 cambia el nombre del personaje
                case 13:
-  				cout<< "Dame el nombre del pesonaje: " ;
+  				cout<< "Dame el nombre del pesonaje (letras): " ;
   				cin >> tem_nombre;
   				kart1.setPersonajeNombre(tem_nombre);
   			  break;
