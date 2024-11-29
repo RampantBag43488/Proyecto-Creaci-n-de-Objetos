@@ -1,3 +1,17 @@
+/*
+ * Proyecto Mario Kart
+ * Inaki Mancera Llano
+ * A01708827
+ * 28/11/2024
+ */
+
+/*
+ * La clase ParametrosBase contiene los datos basicos que todas las
+ * partes del kart contienen, las cuales son la velocidad, la 
+ * aceleracion y el peso, al igual que sus getters y setters.
+*/
+
+
 #include <iostream>
 using namespace std;
 
@@ -5,9 +19,10 @@ using namespace std;
 #define PARAMETROSBASE_H
 
 
-// Clase Personaje
+// Clase de Parametro base abstracta
 class ParametrosBase {
 private:
+    //Variables privadas para las estadisticas
     float velocidad;
     float aceleracion;
     float peso;
@@ -34,6 +49,7 @@ ParametrosBase::ParametrosBase(){
     peso = 0.0;
 }
 
+//Getters
 float ParametrosBase::getVelocidad(){
     return velocidad;
 }
