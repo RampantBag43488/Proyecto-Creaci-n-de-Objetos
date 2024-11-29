@@ -21,3 +21,5 @@ correr en windows: "./a.exe"
 
 3. Se añadieron especificaciones del tipo de dato a ingresar para evitar errores.
 
+4. Se añadieron los comentarios pertinentes en los documentos .h y el main.
+
