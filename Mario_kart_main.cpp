@@ -1,6 +1,22 @@
-#include <iostream>
+/*
+ * Proyecto Mario Kart
+ * Inaki Mancera Llano
+ * A01708827
+ * 28/11/2024
+ */
+
+/*
+ * Descripcion de este es un proyecto para la clase de Pensamiento
+ * Computacional Orientado a Objetos. Es un programa que permite
+ * cambiar los datos de las partes de un kart para poder ver las 
+ * estadisticas totales que este tendria, al igual que los detalles.
+*/
+
+//Bibliotecas
+#include <iostream> //para imprimir
+#include "Kart.h" //creacion del objeto kart
+
 using namespace std;
-#include "Kart.h"
 
 //Menu
 void menu(){
@@ -31,7 +47,7 @@ int main() {
      bool tem_estilo = 0, tem_tipo = 0;
      string tem_nombre;
 
-
+     //Mostrar el menu mientras la opcion este en el rango
      while(opcion < 15 && opcion > -1){
 
   		//Impresion de menu
