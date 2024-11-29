@@ -1,6 +1,21 @@
+/*
+ * Proyecto Mario Kart
+ * Inaki Mancera Llano
+ * A01708827
+ * 28/11/2024
+ */
+
+/*
+ * La clase Kart crea un objeto de carcasa, llantas y personaje
+ * para recibir los datos que el usuario quiera cambiar y que 
+ * pueda ver el total de estos y los detalles del kart y sus partes.
+*/ 
+
+
 #ifndef KART_H
 #define KART_H
 
+//Bibliotecas
 #include <iostream>
 #include "Llantas.h"
 #include "Carcasa.h"
@@ -8,6 +23,7 @@
 
 using namespace std;
 
+//Clase Kart que calcula el total de las estadisticas y muestra detalles
 class Kart {
 private:
     // Los objetos son creados directamente dentro de Kart
