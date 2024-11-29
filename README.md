@@ -13,3 +13,8 @@ El programa corre tanto en la consola como en visual studio code(con las extensi
 compilar en consola con: "g++ ParametrosBase.h Personajes.h Carcasa.h Llantas.h Kart.h Mario_kart_main.cpp"
 
 correr en windows: "./a.exe"
+
+###Correcciones
+1. Se aplico herencia y el main correctamente para que compile.
+
+2. Se corrigio el contenido extra en el menu.
