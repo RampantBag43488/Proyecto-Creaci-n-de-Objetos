@@ -14,7 +14,7 @@ compilar en consola con: "g++ ParametrosBase.h Personajes.h Carcasa.h Llantas.h 
 
 correr en windows: "./a.exe"
 
-###Correcciones
+### Correcciones
 1. Se aplicó herencia y el main correctamente para que compile.
 
 2. Se corrigió el contenido extra en el menú.
