@@ -114,7 +114,7 @@ int main() {
 
                //Caso 9 cambia el tipo de llantas
   			case 9:
-  				cout<< "Dame el tipo de llantas: \n(Ponga: 0 para todoterreno/1 para pequeñas)\n" ;
+  				cout<< "Dame el tipo de llantas: \n(Ponga: 0 para todoterreno/1 para pequenas)\n" ;
   				cin >> tem_tipo;
   				kart1.setLlantasTipo(tem_tipo);
   			  break;
