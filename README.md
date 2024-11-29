@@ -27,7 +27,7 @@ Se presenta tanto en todos los documentos de Carcasa.h, Llantas.h y Personajes.h
 4. Se añadieron los comentarios pertinentes en los documentos .h y el main.
 
 5. Se implemento composicion para la creacion del Kart.
-- Impemento composición (o agregación) sieguiendo mi diagrama de clases
+- Implemento composición (o agregación) sieguiendo mi diagrama de clases
 
 En el archivo Kart.h donde se crea este objeto con la carcasa, personaje y llantas como parametros.
 
