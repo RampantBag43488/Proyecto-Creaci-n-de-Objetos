@@ -15,7 +15,7 @@ void menu(){
     cout << "6. Cambiar aceleracion de las llantas. \n";
     cout << "7. Cambiar peso de las llantas. \n";
     cout << "8. Cambiar velocidad de las llantas. \n";
-    cout << "9. Cambiar el tipo de llantas. \n(Ponga: 0 = todoterreno/1 = pequeñas)\n";
+    cout << "9. Cambiar el tipo de llantas. \n";
     cout << "10. Cambiar aceleracion del personaje. \n";
     cout << "11. Cambiar peso del personaje. \n";
     cout << "12. Cambiar velocidad del personaje. \n";
